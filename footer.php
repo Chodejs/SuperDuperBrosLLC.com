@@ -57,8 +57,9 @@
             </div>
 
             <div class="mt-10 pt-8 border-t border-custom-gray-700 text-center text-sm">
-                <p>&copy; <?php echo date("Y"); ?> Super Brothers LLC. All Rights Reserved.</p>
-                <p class="mt-1">Website by <a href="https://chrisandinga.com" target="_blank" rel="noopener noreferrer" class="hover:text-accent-orange transition-colors duration-300">Chris & Emma</a></p>
+                <p><a href="admin/login.php" title="Admin Login" style="text-decoration: none; color: inherit;" class="hover:text-accent-orange transition-colors">&copy;</a> <?php echo date("Y"); ?> Super Brothers LLC. All Rights Reserved.</p>
+                <p class="mt-1">Website by <a href="https://chrisandemmashow.com" target="_blank" rel="noopener noreferrer" class="hover:text-accent-orange transition-colors duration-300">Chris & Emma</a></p>
+                <p class="mt-1">Admin <a href="admin_login.php" target="_blank" rel="noopener noreferrer" class="hover:text-accent-orange transition-colors duration-300">Login</a></p>
             </div>
         </div>
     </footer>
